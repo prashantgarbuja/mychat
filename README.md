@@ -82,7 +82,7 @@ mychat (Root Node)
     └── ...
 ```
 
-1## Getting Started
+## Getting Started
 
 1. Clone the MyChat repository from [GitHub](https://github.com/prashantgarbuja/mychat).
 2. Open the project in Android Studio.
