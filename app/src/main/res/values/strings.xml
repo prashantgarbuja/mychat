@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">mychat</string>
+    <string name="logout">Logout</string>
+    <string name="developed_by">Developed By Prashant</string>
+    <string name="welcome">Welcome to myChat</string>
+    <string name="enter_number">Enter phone number</string>
+    <string name="enter_name">Enter username</string>
+    <string name="enter_code">Enter code</string>
+    <string name="send_code">Send Verification code</string>
+    <string name="app_description">mychat is a free messaging app for all.</string>
+    <string name="type_a_message">Type a message...</string>
+</resources>

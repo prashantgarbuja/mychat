@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".LoginActivity">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+        android:layout_gravity="center"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            android:background="@drawable/custom_edittext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/textColor"
+            android:text="@string/welcome" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:autofillHints="username"
+                android:background="@drawable/custom_edittext"
+                android:drawableStart="@drawable/user"
+                android:drawablePadding="10dp"
+                android:hint="@string/enter_name"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:inputType="text|textPersonName"
+                android:layout_marginTop="40dp"/>
+
+            <EditText
+                android:id="@+id/phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:autofillHints="phone"
+                android:background="@drawable/custom_edittext"
+                android:digits="+0123456789"
+                android:drawableStart="@drawable/phone"
+                android:hint="@string/enter_number"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:maxLength="14"
+                android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_edittext"
+            android:digits="0123456789"
+            android:hint="@string/enter_code"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:inputType="phone"
+            android:maxLength="6"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:autofillHints="oneTimeCode" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/send_code" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
