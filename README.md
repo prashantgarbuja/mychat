@@ -94,8 +94,4 @@ mychat (Root Node)
 
 ## Screenshots
 
-![Screenshot 1]()
-![Screenshot 2]()
-
-
-
+<img src="https://github.com/prashantgarbuja/mychat/blob/main/Screenshots/1.jpg" alt="screenshots1" width="300" > <img src="https://github.com/prashantgarbuja/mychat/blob/main/Screenshots/2.jpg" alt="screenshots2" width="300" > <img src="https://github.com/prashantgarbuja/mychat/blob/main/Screenshots/3.jpg" alt="screenshots3" width="300" > <img src="https://github.com/prashantgarbuja/mychat/blob/main/Screenshots/4.jpg" alt="screenshots4" width="300" > <img src="https://github.com/prashantgarbuja/mychat/blob/main/Screenshots/5.jpg" alt="screenshots5" width="300" > <img src="https://github.com/prashantgarbuja/mychat/blob/main/Screenshots/6.jpg" alt="screenshots6" width="300" > <img src="https://github.com/prashantgarbuja/mychat/blob/main/Screenshots/7.jpg" alt="screenshots7" width="300" > <img src="https://github.com/prashantgarbuja/mychat/blob/main/Screenshots/8.jpg" alt="screenshots8" width="300" >
